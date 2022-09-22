@@ -7,12 +7,14 @@
 
 <script>
 export default {
-    name: 'firstComponent'
+    name: 'firstComponent' // ESPORTA IL COMPONENTE
 }
 </script>
 
 <style scoped> /* SE METTO SCOPED IL CSS E' RELATIVO A QUESTO COMPONENTE */
-    
+    * {
+        text-align: center;
+    }
     h1 {
         color: green;
         text-decoration: underline;
